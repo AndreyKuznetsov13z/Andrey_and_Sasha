@@ -1,0 +1,263 @@
+body,
+main {
+    margin: 0px;
+    background-color: #222222;
+}
+
+.header_banner {
+    background-color: #BD162C;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+
+    p {
+        color: rgb(255, 255, 255);
+        font-family: arial black;
+        font-size: xx-large;
+        text-align: center;
+    }
+}
+
+.btn {
+    margin: 10pt;
+    align-self: flex-end;
+    min-width: 200pt;
+}
+
+.info_page {
+    p, a, address {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #BD162C;
+    font-size: x-small;
+    border-radius: 10px;
+    font-family: arial black;
+    text-align: center;
+    min-width: fit-content;
+}
+
+.vcard {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 10pt;
+    display: flex;
+    flex-direction: column;
+    background-color: #BD162C;
+    font-family: arial;
+    max-width: fit-content;
+
+    span, div, a {
+        color: white;
+        font-size: large;
+        text-align: center;
+        margin-bottom: auto;
+        vertical-align: center;
+    }
+}
+
+.center {
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-size: large;
+    font-family: arial;
+    align-self: center;
+    margin: 30px;
+}
+
+.buy {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.module {
+    border-radius: 10%;
+    width: 20vw;
+    height: 450px;
+    width: 350px;
+
+    margin: 10pt;
+    padding: 10pt;
+    display: flex;
+    flex-direction: column;
+    background-color: #BD162C;
+
+    h2,
+    p {
+        font-size: small;
+        color: white;
+        font-family: arial black;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        vertical-align: center;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+   
+    a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .available {
+        color: #28ecbb;
+        p {
+            font-size: xx-large;
+        }
+    }
+    
+    .not_available {
+        color: #222222;
+        p {
+            font-size: large;
+        }
+    }
+}
+
+.available {
+    color:#28ecbb;
+}
+
+.not_available {
+    color:#222222;
+}
+
+.text_module {
+    border-radius: 20px;
+
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #BD162C;
+    font-family: arial;
+    max-width: fit-content;
+
+    p {
+        font-size: large;
+        text-align: center;
+        margin-bottom: auto;
+        vertical-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.desc {
+    p {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .text_module {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.img_big {
+    border-radius: 20%;
+    max-height: 550px;
+    border-style: solid;
+    border: 5px;
+    border-color: #BD162C;
+    align-self: center;
+    background-color: #BD162C;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+
+.module_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img_vinyl {
+    border-radius: 20%;
+    border-style: solid;
+    border-color: #BD162C;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+}
+
+.img_logo {
+    border-radius: 20%;
+    border-style: solid;
+    border-color: #BD162C;
+    width: 300px;
+    margin: 10px;
+}
+
+.scale {
+    transition: 0.5s;
+}
+
+.scale:hover {
+    transform: scale(1.04);
+}
+
+@media (max-width : 900px) {
+    .img_big {
+        border-radius: 20%;
+        border-style: solid;
+        border-color: #BD162C;
+        align-self: center;
+        background-color: #BD162C;
+        padding: 10px;
+        width: 300px;
+    }
+
+    .align_center {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (max-width : 350px) {
+
+
+    .module {
+        height: 322px;
+        width: 250px;
+
+        h2 {
+            font-size: small;
+        }
+
+        p {
+            font-size: x-small;
+        }
+    }
+
+    .img_vinyl {
+        height: 215px;
+        width: 215px;
+    }
+}
